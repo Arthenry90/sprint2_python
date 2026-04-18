@@ -5,8 +5,6 @@ def limpar():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def exibir_menu():
-    # O dicionário deve ficar aqui, fora do while, 
-    # para os dados persistirem durante a execução.
     dict_logins = {}
     
     rodando = True
