@@ -11,6 +11,7 @@ def exibir_menu():
     while rodando:
         print("--- MENU CARE PLUS ---\n")
         print("1 - Criar conta")
+        print("2 - Fazer login")
         print("0 - Sair")
 
         input_escolha = input("Opção: ")
@@ -26,6 +27,11 @@ def exibir_menu():
                 
                 input("\nConta registrada! Enter para voltar...")
                 limpar()
+
+            case "2":
+                # Terminar essa aqui
+                print("Ola")
+                fazer_login()
 
             case "0":
                 print("Saindo do sistema...")
