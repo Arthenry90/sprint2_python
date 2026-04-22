@@ -33,9 +33,13 @@ def exibir_menu():
                 limpar()
 
             case "2":
-                # Terminar essa aqui
-                print("Ola")
-                fazer_login()
+                print("--- LOGAR NA CONTA")
+
+                login_nome = input("Usuário: ")
+                login_senha = input("Senha: ")
+                fazer_login(dict_logins,login_nome,login_senha)
+                input("\nConta logada! Enter para voltar... ")
+
                 
             case "3":
                 limpar()

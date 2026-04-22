@@ -9,9 +9,9 @@ def fazer_login(dict_contas: dict, input_usuario: str, input_senha: str):
     for usuario, senha in dict_contas.items():
         print(usuario, senha)
         if usuario == input_usuario and senha == input_senha:
-            print("Fez login")
+            print("Conta logada com sucesso!")
         else:
-            print("Erro ao logar")
+            print("Erro ao logar! Senha ou úsuario invalídos")
         
 def listar_missoes(missoes: list) -> None:
     print("Essas sao as missoes disponiveis:")
